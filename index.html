@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vineet Gautam</title>
+  <meta name="description"
+    content="Personal website of Vineet Gautam, university student and robotics engineer based in Vadodara, India.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Cinzel:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello, World!</h1>
+  <main class="page-container">
+    <header class="title-container">
+      <h1 class="site-title"><span class="bracket left-bracket"> </span><span class="name"> VINEET GAUTAM </span><span
+          class="bracket right-bracket"> </span></h1>
+    </header>
+
+    <figure class="hero-image-wrapper">
+      <img src="assets/robot.jpg" alt="Autonomous Robotics Hardware Chassis" class="hero-image" id="hero-img">
+    </figure>
+
+    <div class="time-container">
+      <p class="time-display" id="vadodara-clock">TIME IN VADODARA, INDIA - LOADING...</p>
+    </div>
+
+    <nav class="nav-links" aria-label="Main Navigation">
+      <a href="about.html" class="nav-link" id="nav-about">about</a>
+      <span class="nav-separator">//</span>
+      <a href="https://github.com/vineet-008" target="_blank" rel="noopener noreferrer" class="nav-link"
+        id="nav-github">github</a>
+    </nav>
+  </main>
+
+  <footer class="footer-info">
+    <div class="contact-details">
+      <p class="email" id="copy-email" title="Click to copy email">vineetgautam325[at]gmail.com</p>
+      <p class="location">vadodara, gujarat</p>
+      <p class="country">india</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" aria-live="polite">Email copied to clipboard</div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
